@@ -24,7 +24,7 @@ cli = []
 gui = ["dioxus", "rfd"]
 
 [dependencies]
-dioxus = { version = "0.6", features = ["desktop"], optional = true }
+dioxus = { version = "0.7", features = ["desktop"], optional = true }
 tokio = { version = "1.0", features = ["full"] }
 chrono = { version = "0.4", features = ["serde"] }
 rfd = { version = "0.15", optional = true }
