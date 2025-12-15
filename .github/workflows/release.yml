@@ -120,7 +120,7 @@ jobs:
         cargo clean
         
     - name: Cache dependencies
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: |
           ~/.cargo/registry
